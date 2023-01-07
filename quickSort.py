@@ -1,8 +1,9 @@
 arr = [13, 3, -2, 9, 8, 7, 4, 11, 0]
-l = 0
-r = len(arr)-1
+l = 0 # left margin
+r = len(arr)-1 # right margin
 
 def partition(arr, l, r):
+    """ divide arr in to partition """
 
     pivot = arr[r]
     i = l-1
@@ -16,6 +17,7 @@ def partition(arr, l, r):
     return i+1
 
 def qs(arr, l, r):
+    """sort the arr"""
 
     if l>=r:
         return arr

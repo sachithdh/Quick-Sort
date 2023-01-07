@@ -1,3 +1,3 @@
-# Demo
+# Quick Sort Algorithm
 
-## subheader
+You can use this algorithm to sort list of integers quickly
